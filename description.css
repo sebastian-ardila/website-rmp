@@ -1,0 +1,32 @@
+/* Botones de descripción */
+.description {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  background: rgb(0, 123, 255);
+  border: 1px solid rgb(0, 123, 255);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.description:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  transition: all 0.4s ease;
+}
+
+.description.selected {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Contenedor de los botones */
+#descriptions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
